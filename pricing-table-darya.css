@@ -1,0 +1,217 @@
+.pricing-container-darya {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+
+.plans-header-darya {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #f5f5f5;
+}
+
+.plan-option-darya {
+    padding: 20px;
+    cursor: pointer;
+    flex: 1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.plan-option-darya:not(.selected):hover {
+    background-color: #e0e0e0;
+}
+
+.plan-option-darya.selected {
+    background-color: #00327D;
+    color: #fff;
+}
+
+.plan-details-darya {
+    padding: 20px;
+}
+
+.plan-content-darya {
+    display: none;
+}
+
+.plan-content-darya.active {
+    display: block;
+}
+
+.price-darya {
+    font-size: 36px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price-details-darya {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+.feature-list-darya {
+    font-size: 16px;
+    margin-top: 30px;
+    color: #555;
+    text-align: left;
+    display: inline-block;
+}
+
+.feature-list-darya p {
+    margin-bottom: 10px;
+}
+
+.get-started-btn-darya {
+    background-color: #00327D;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn-darya:hover {
+    background-color: #002252;
+}
+
+.plan-icon-darya {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.checkmark-icon-darya {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: #28a745;
+}
+
+.founder-badge-darya {
+    background-color: #97CBDB;
+    color: #333;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.free-resources-darya {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
+
+.btn-container-darya {
+    display: flex;
+    justify-content: center;
+}
+
+.expandable-section-darya {
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.expandable-section-darya p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.speech-bubble-icon-darya {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-chatbubble-512.png');
+    background-size: cover;
+}
+
+.expandable-content-darya {
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.expandable-content-darya ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.expandable-content-darya li {
+    margin-bottom: 5px;
+}
+
+.expandable-content-darya li strong {
+    margin-right: 5px;
+}
+
+.expandable-content-darya li span {
+    font-size: 12px;
+    color: #666;
+}
+
+.schedule-embed-darya {
+    display: none;
+    margin-top: 10px;
+}
+
+.back-to-features-darya {
+    display: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #00327D;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.back-arrow-icon-darya {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+    vertical-align: middle;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-left-b-512.png');
+    background-size: cover;
+}
+
+.iframe-mask-darya {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 620px;
+}
+
+.iframe-mask-darya iframe {
+  height: 670px;
+  width: 100%;
+  border: 0;
+  position: relative;
+  top: -50px;
+}
