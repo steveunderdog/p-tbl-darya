@@ -1,1 +1,1 @@
-# p-tbl-daryas
+# p-tbl-darya
